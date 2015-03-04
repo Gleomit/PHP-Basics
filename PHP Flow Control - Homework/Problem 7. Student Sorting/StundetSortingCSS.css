@@ -1,0 +1,52 @@
+.addRemove
+{
+    padding: 2px 8px;
+    background-color: #234465;
+    color: #fff;
+    font-weight: bold;
+}
+.addRemove:hover
+{
+    cursor: pointer;
+}
+#theTable
+{
+    border: 3px solid lightgray;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+}
+#result th
+{
+    color: #fff;
+    background-color: #4ca0db;
+    font-weight: bold;
+}
+#result
+{
+    border-collapse: collapse;
+}
+#result td
+{
+    text-align: left;
+}
+#result tbody td:last-child, #result td:last-child
+{
+    text-align: right;
+}
+#theTable th
+{
+    text-align: left;
+}
+#theTable td
+{
+    padding: 6px;
+}
+#theTable tr:first-child
+{
+    border-bottom: 3px solid gray;
+}
+input[type="submit"]
+{
+    color: #fff;
+    background-color: #234465;
+}
